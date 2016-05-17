@@ -5,22 +5,22 @@ Here is a simple JQuery plugin that proofs this, the plugin find a specified tex
 users of this plugin will call it just like they will any other JQuery function and optionally pass in parameters in form of an a Javascript object for (text to find), (text to replace) and a callback function when the operation is complete.
 
 sample HTML <br>
-&lt;p&gt;
-  Lorem Ipsum ok we have beeen replaced
-&lt;/p&gt;
-&lt;p&gt;
-  Another lorem ipsum Lorem Ipsum ok we have beeen replaced
-&lt;/p&gt;
-&lt;p&gt;
-  A thrid Lorem Ipsum ok we have beeen replaced
-&lt;/p&gt;
-&lt;span class="notification"&gt; &lt;/span&gt;
+&lt;p&gt;<br>
+  Lorem Ipsum ok we have beeen replaced<br>
+&lt;/p&gt;<br>
+&lt;p&gt;<br>
+  Another lorem ipsum Lorem Ipsum ok we have beeen replaced<br>
+&lt;/p&gt;<br>
+&lt;p&gt;<br>
+  A thrid Lorem Ipsum ok we have beeen replaced<br>
+&lt;/p&gt;<br>
+&lt;span class="notification"&gt; &lt;/span&gt;<br>
 
 Sample User JS <br>
-$('p').findReplace({
-  findText:"Lorem",
-  replaceText:"I have been replaced"
-});
+$('p').findReplace({<br>
+  findText:"Lorem",<br>
+  replaceText:"I have been replaced"<br>
+});<br>
 
 Make sure you include JQuery and the Plugin in your project.
 
