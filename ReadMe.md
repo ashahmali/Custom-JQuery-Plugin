@@ -5,7 +5,7 @@ Here is a simple JQuery plugin that proofs this, the plugin find a specified tex
 users of this plugin will call it just like they will any other JQuery function and optionally pass in parameters in form of an a Javascript object for (text to find), (text to replace) and a callback function when the operation is complete.
 
 sample HTML 
-<p>
+&lt;p&gt;
   Lorem Ipsum ok we have beeen replaced
 </p>
 <p>
